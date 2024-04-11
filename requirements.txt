@@ -2,3 +2,4 @@ numpy
 matplotlib
 Pillow 
 IPython
+streamlit_option_menu
