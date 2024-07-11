@@ -351,7 +351,7 @@ def main():
             ax1.grid()
             ax1.legend()
             st.write("Shear Force Diagram")
-            st.pyplot(fig1, width=400)
+            st.pyplot(fig1)
             v_max = max(map(abs,V))
             st.write("Maximum Shear Force Value:",v_max,"N/m²")
 
@@ -368,7 +368,7 @@ def main():
             ax2.grid()
             ax2.legend()
             st.write("Bending Moment Diagram")
-            st.pyplot(fig2, width=400)
+            st.pyplot(fig2)
             bm_max = max(map(abs,BM))
             st.write("Maximum Bending Moment Value:",bm_max,"N-m")
 
@@ -386,7 +386,7 @@ def main():
             ax4.grid()
             ax4.legend()
             st.write("Deflection of Beam")
-            st.pyplot(fig4, width=400)
+            st.pyplot(fig4)
             deflection_max = max(map(abs,deflection))
             st.write("Maximum Delfection:",deflection_max,"m")
 
@@ -404,7 +404,7 @@ def main():
             ax3.grid()
             ax3.legend()
             st.write("Slope of beam")
-            st.pyplot(fig3, width=400)
+            st.pyplot(fig3)
             slope_max = max(map(abs,slope))
             st.write("Maximum Slope:",slope_max)
 
