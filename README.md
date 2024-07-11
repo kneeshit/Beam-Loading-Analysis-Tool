@@ -1,1 +1,1 @@
-to launch, "streamlit run moscode.py" in terminal
+ES 221 Mechanics of Solids: Course project for dynamic analysis of shear force, bending moments, slope, and deflection of beams under various loads.
